@@ -1,0 +1,85 @@
+cff-version: 1.2.0
+message: "If you use VBDS, please cite the benchmark and the original source datasets listed in SOURCE_LICENSES.md."
+title: "VBDS: A Visual-Cue Benchmark and Dataset for Sensitive-Content Identification in Aerial Imagery"
+abstract: >-
+  VBDS is a 26-class object-detection benchmark for sensitive visual cues in aerial and
+  low-altitude imagery, drawn from 16 source units and annotated in a single COCO taxonomy.
+  This repository releases the redistributable subset, the annotations for that subset, and the
+  metadata needed to reproduce the benchmark from legally obtained originals.
+type: dataset
+version: "1.0"
+date-released: 2026-11-11
+license: "CC-BY-NC-4.0"
+license-url: "https://creativecommons.org/licenses/by-nc/4.0/"
+repository-code: "https://github.com/aiprivacygroup-member1/vbds"
+url: "https://github.com/aiprivacygroup-member1/vbds"
+doi: "10.5281/zenodo.24126537"
+keywords:
+  - aerial imagery
+  - object detection
+  - benchmark
+  - sensitive content
+  - dataset
+authors:
+  - family-names: "Li"
+    given-names: "Yinglong"
+    affiliation: "Zhejiang University of Technology"
+contact:
+  - family-names: "Li"
+    given-names: "Yinglong"
+    email: "liyinglong@zjut.edu.cn"
+# preferred-citation: add once the venue, year and DOI are assigned.
+references:
+  - type: article
+    title: "Object detection in optical remote sensing images: A survey and a new benchmark"
+    authors:
+      - family-names: Li
+        given-names: Ke
+    year: 2020
+    journal: "ISPRS Journal of Photogrammetry and Remote Sensing"
+    volume: 159
+    notes: "DIOR (source unit S02)"
+  - type: conference
+    title: "Functional Map of the World"
+    authors:
+      - family-names: Christie
+        given-names: Gordon
+    year: 2018
+    collection-title: "CVPR"
+    notes: "fMoW (source unit S03)"
+  - type: article
+    title: "Remote Sensing Image Scene Classification: Benchmark and State of the Art"
+    authors:
+      - family-names: Cheng
+        given-names: Gong
+      - family-names: Han
+        given-names: Junwei
+      - family-names: Lu
+        given-names: Xiaoqiang
+    year: 2017
+    journal: "Proceedings of the IEEE"
+    volume: 105
+    issue: 10
+    notes: "NWPU-RESISC45 (source unit S04)"
+  - type: article
+    title: "Detection and Tracking Meet Drones Challenge"
+    authors:
+      - family-names: Zhu
+        given-names: Pengfei
+    year: 2021
+    journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    volume: 44
+    issue: 11
+    notes: "VisDrone (source unit S05)"
+  - type: conference
+    title: "TTPLA: An Aerial-Image Dataset for Detection and Segmentation of Transmission Towers and Power Lines"
+    authors:
+      - family-names: Abdelfattah
+        given-names: Rabab
+      - family-names: Wang
+        given-names: Xiaofeng
+      - family-names: Wang
+        given-names: Song
+    year: 2020
+    collection-title: "ACCV"
+    notes: "TTPLA (source units S08, S09)"

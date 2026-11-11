@@ -1,0 +1,9 @@
+# Core dependencies for validation and evaluation (CPU only).
+numpy>=1.23
+Pillow>=9.0
+pycocotools>=2.0.6
+
+# The model-specific dumpers in evaluation/ additionally need a deep-learning framework and the
+# corresponding model package (torch + torchvision for DINO/FRCNN/RT-DETR, ultralytics for
+# YOLO26, the official D-FINE and RF-DETR packages). They are not required to validate the
+# dataset, to recompute metrics from an existing prediction dump, or to run tools in scripts/.

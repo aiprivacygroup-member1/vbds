@@ -1,0 +1,86 @@
+{
+  "S01": {
+    "airplane": 7342,
+    "bridge": 2072,
+    "crane": 142,
+    "harbor": 4928,
+    "helicopter": 635,
+    "runway": 1,
+    "ship": 7874,
+    "storage_tank": 3689,
+    "vehicle": 10341
+  },
+  "S02": {
+    "airplane": 10076,
+    "bridge": 3132,
+    "container_area": 2,
+    "cooling_tower": 1599,
+    "crane": 2,
+    "dam": 1050,
+    "electric_substation": 1,
+    "harbor": 5406,
+    "helicopter": 17,
+    "helipad": 2,
+    "runway": 4,
+    "ship": 23276,
+    "storage_tank": 12089,
+    "vehicle": 9325,
+    "wind_turbine": 5363
+  },
+  "S03": {
+    "electric_substation": 163,
+    "helipad": 102,
+    "solar_farm": 265
+  },
+  "S04": {
+    "railway": 700,
+    "runway": 579
+  },
+  "S05": {
+    "person": 3701,
+    "vehicle": 51
+  },
+  "S06": {
+    "face": 8462,
+    "person": 6
+  },
+  "S07": {
+    "crowd": 152,
+    "person": 2,
+    "vehicle": 1
+  },
+  "S08": {
+    "tower": 195
+  },
+  "S09": {
+    "tower": 202
+  },
+  "S10": {
+    "plate": 266
+  },
+  "S11": {
+    "surveillance": 189
+  },
+  "S12": {
+    "container_area": 176,
+    "crane": 159,
+    "person": 3,
+    "ship": 3,
+    "vehicle": 2,
+    "wind_turbine": 12
+  },
+  "S13": {
+    "surface_mine": 100
+  },
+  "S14": {
+    "gas_station_canopy": 113
+  },
+  "S15": {
+    "no_uav_sign": 53,
+    "person": 10,
+    "vehicle": 25
+  },
+  "S16": {
+    "solar_farm": 46
+  }
+}

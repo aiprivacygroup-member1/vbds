@@ -1,0 +1,684 @@
+{
+  "meta": {
+    "dataset": "VBDS v1.0",
+    "annotations": "annotations",
+    "splits": "splits",
+    "images": "(not checked)",
+    "files_checked": 6
+  },
+  "summary": {
+    "pass": 73,
+    "warn": 0,
+    "fail": 0
+  },
+  "stats": {
+    "versions": {
+      "g3.train": {
+        "images": 8327,
+        "boxes": 46000,
+        "per_class": {
+          "no_uav_sign": 0,
+          "airplane": 6500,
+          "bridge": 2035,
+          "dam": 737,
+          "wind_turbine": 3960,
+          "harbor": 2878,
+          "ship": 12927,
+          "storage_tank": 5808,
+          "vehicle": 5033,
+          "container_area": 0,
+          "crane": 0,
+          "surface_mine": 0,
+          "solar_farm": 219,
+          "tower": 338,
+          "face": 0,
+          "person": 2966,
+          "plate": 0,
+          "cooling_tower": 1295,
+          "helipad": 76,
+          "helicopter": 0,
+          "runway": 500,
+          "gas_station_canopy": 0,
+          "electric_substation": 128,
+          "railway": 600,
+          "surveillance": 0,
+          "crowd": 0
+        },
+        "info": {
+          "description": "LADS-Risk 26-class detection dataset",
+          "split": "train"
+        }
+      },
+      "g3.val": {
+        "images": 2462,
+        "boxes": 25715,
+        "per_class": {
+          "no_uav_sign": 0,
+          "airplane": 2760,
+          "bridge": 871,
+          "dam": 233,
+          "wind_turbine": 1014,
+          "harbor": 2278,
+          "ship": 9169,
+          "storage_tank": 5234,
+          "vehicle": 3812,
+          "container_area": 0,
+          "crane": 0,
+          "surface_mine": 0,
+          "solar_farm": 22,
+          "tower": 41,
+          "face": 0,
+          "person": 72,
+          "plate": 0,
+          "cooling_tower": 157,
+          "helipad": 18,
+          "helicopter": 0,
+          "runway": 0,
+          "gas_station_canopy": 0,
+          "electric_substation": 34,
+          "railway": 0,
+          "surveillance": 0,
+          "crowd": 0
+        },
+        "info": {
+          "description": "LADS-Risk 26-class detection dataset",
+          "split": "val"
+        }
+      },
+      "g3.test": {
+        "images": 994,
+        "boxes": 5587,
+        "per_class": {
+          "no_uav_sign": 0,
+          "airplane": 816,
+          "bridge": 226,
+          "dam": 80,
+          "wind_turbine": 389,
+          "harbor": 250,
+          "ship": 1180,
+          "storage_tank": 1047,
+          "vehicle": 531,
+          "container_area": 2,
+          "crane": 2,
+          "surface_mine": 0,
+          "solar_farm": 24,
+          "tower": 18,
+          "face": 0,
+          "person": 663,
+          "plate": 0,
+          "cooling_tower": 147,
+          "helipad": 10,
+          "helicopter": 17,
+          "runway": 83,
+          "gas_station_canopy": 0,
+          "electric_substation": 2,
+          "railway": 100,
+          "surveillance": 0,
+          "crowd": 0
+        },
+        "info": {
+          "description": "LADS-Risk 26-class detection dataset",
+          "split": "test"
+        }
+      },
+      "final.train": {
+        "images": 8318,
+        "boxes": 53749,
+        "per_class": {
+          "no_uav_sign": 0,
+          "airplane": 6605,
+          "bridge": 2191,
+          "dam": 736,
+          "wind_turbine": 3892,
+          "harbor": 3906,
+          "ship": 16061,
+          "storage_tank": 8141,
+          "vehicle": 6507,
+          "container_area": 0,
+          "crane": 0,
+          "surface_mine": 0,
+          "solar_farm": 211,
+          "tower": 285,
+          "face": 0,
+          "person": 2951,
+          "plate": 0,
+          "cooling_tower": 1160,
+          "helipad": 75,
+          "helicopter": 16,
+          "runway": 407,
+          "gas_station_canopy": 0,
+          "electric_substation": 115,
+          "railway": 490,
+          "surveillance": 0,
+          "crowd": 0
+        },
+        "info": {
+          "description": "LADS-Risk 26-class detection dataset (balanced 70/20/10 + 4-class reannotation merged)",
+          "split": "train",
+          "source_gt": "G3_dedupv1_AUTHORITATIVE + REANNO_4CLASS_20261015/reanno_out",
+          "merge_date": "2026-10-19",
+          "seed": 20261019
+        }
+      },
+      "final.val": {
+        "images": 2369,
+        "boxes": 15222,
+        "per_class": {
+          "no_uav_sign": 0,
+          "airplane": 2242,
+          "bridge": 626,
+          "dam": 204,
+          "wind_turbine": 1008,
+          "harbor": 1003,
+          "ship": 5516,
+          "storage_tank": 1857,
+          "vehicle": 1678,
+          "container_area": 0,
+          "crane": 0,
+          "surface_mine": 0,
+          "solar_farm": 30,
+          "tower": 79,
+          "face": 0,
+          "person": 374,
+          "plate": 0,
+          "cooling_tower": 293,
+          "helipad": 20,
+          "helicopter": 2,
+          "runway": 116,
+          "gas_station_canopy": 0,
+          "electric_substation": 34,
+          "railway": 140,
+          "surveillance": 0,
+          "crowd": 0
+        },
+        "info": {
+          "description": "LADS-Risk 26-class detection dataset (balanced 70/20/10 + 4-class reannotation merged)",
+          "split": "val",
+          "source_gt": "G3_dedupv1_AUTHORITATIVE + REANNO_4CLASS_20261015/reanno_out",
+          "merge_date": "2026-10-19",
+          "seed": 20261019
+        }
+      },
+      "final.test": {
+        "images": 1096,
+        "boxes": 7737,
+        "per_class": {
+          "no_uav_sign": 0,
+          "airplane": 931,
+          "bridge": 247,
+          "dam": 110,
+          "wind_turbine": 463,
+          "harbor": 496,
+          "ship": 1699,
+          "storage_tank": 1843,
+          "vehicle": 1192,
+          "container_area": 2,
+          "crane": 2,
+          "surface_mine": 0,
+          "solar_farm": 24,
+          "tower": 33,
+          "face": 0,
+          "person": 376,
+          "plate": 0,
+          "cooling_tower": 146,
+          "helipad": 9,
+          "helicopter": 18,
+          "runway": 61,
+          "gas_station_canopy": 0,
+          "electric_substation": 15,
+          "railway": 70,
+          "surveillance": 0,
+          "crowd": 0
+        },
+        "info": {
+          "description": "LADS-Risk 26-class detection dataset (balanced 70/20/10 + 4-class reannotation merged)",
+          "split": "test",
+          "source_gt": "G3_dedupv1_AUTHORITATIVE + REANNO_4CLASS_20261015/reanno_out",
+          "merge_date": "2026-10-19",
+          "seed": 20261019
+        }
+      }
+    },
+    "images_on_disk": {}
+  },
+  "checks": [
+    {
+      "id": "structure.g3.train",
+      "name": "annotation file present",
+      "status": "pass",
+      "detail": "annotations/g3/instances_train.json"
+    },
+    {
+      "id": "structure.g3.val",
+      "name": "annotation file present",
+      "status": "pass",
+      "detail": "annotations/g3/instances_val.json"
+    },
+    {
+      "id": "structure.g3.test",
+      "name": "annotation file present",
+      "status": "pass",
+      "detail": "annotations/g3/instances_test.json"
+    },
+    {
+      "id": "structure.final.train",
+      "name": "annotation file present",
+      "status": "pass",
+      "detail": "annotations/final/instances_train.json"
+    },
+    {
+      "id": "structure.final.val",
+      "name": "annotation file present",
+      "status": "pass",
+      "detail": "annotations/final/instances_val.json"
+    },
+    {
+      "id": "structure.final.test",
+      "name": "annotation file present",
+      "status": "pass",
+      "detail": "annotations/final/instances_test.json"
+    },
+    {
+      "id": "taxonomy.ids.g3.train",
+      "name": "26 categories, ids 0-25",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "taxonomy.ids.g3.val",
+      "name": "26 categories, ids 0-25",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "taxonomy.ids.g3.test",
+      "name": "26 categories, ids 0-25",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "taxonomy.ids.final.train",
+      "name": "26 categories, ids 0-25",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "taxonomy.ids.final.val",
+      "name": "26 categories, ids 0-25",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "taxonomy.ids.final.test",
+      "name": "26 categories, ids 0-25",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "taxonomy.consistency",
+      "name": "identical category table in every file",
+      "status": "pass",
+      "detail": "6 files"
+    },
+    {
+      "id": "ref.image_ids.g3.train",
+      "name": "image ids unique",
+      "status": "pass",
+      "detail": "8327 images"
+    },
+    {
+      "id": "ref.annotation_ids.g3.train",
+      "name": "annotation ids unique",
+      "status": "pass",
+      "detail": "46000 annotations"
+    },
+    {
+      "id": "ref.missing_image.g3.train",
+      "name": "every annotation resolves to an image",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.category_range.g3.train",
+      "name": "category_id within 0-25",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.image_size.g3.train",
+      "name": "positive image dimensions",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.image_ids.g3.val",
+      "name": "image ids unique",
+      "status": "pass",
+      "detail": "2462 images"
+    },
+    {
+      "id": "ref.annotation_ids.g3.val",
+      "name": "annotation ids unique",
+      "status": "pass",
+      "detail": "25715 annotations"
+    },
+    {
+      "id": "ref.missing_image.g3.val",
+      "name": "every annotation resolves to an image",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.category_range.g3.val",
+      "name": "category_id within 0-25",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.image_size.g3.val",
+      "name": "positive image dimensions",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.image_ids.g3.test",
+      "name": "image ids unique",
+      "status": "pass",
+      "detail": "994 images"
+    },
+    {
+      "id": "ref.annotation_ids.g3.test",
+      "name": "annotation ids unique",
+      "status": "pass",
+      "detail": "5587 annotations"
+    },
+    {
+      "id": "ref.missing_image.g3.test",
+      "name": "every annotation resolves to an image",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.category_range.g3.test",
+      "name": "category_id within 0-25",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.image_size.g3.test",
+      "name": "positive image dimensions",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.image_ids.final.train",
+      "name": "image ids unique",
+      "status": "pass",
+      "detail": "8318 images"
+    },
+    {
+      "id": "ref.annotation_ids.final.train",
+      "name": "annotation ids unique",
+      "status": "pass",
+      "detail": "53749 annotations"
+    },
+    {
+      "id": "ref.missing_image.final.train",
+      "name": "every annotation resolves to an image",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.category_range.final.train",
+      "name": "category_id within 0-25",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.image_size.final.train",
+      "name": "positive image dimensions",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.image_ids.final.val",
+      "name": "image ids unique",
+      "status": "pass",
+      "detail": "2369 images"
+    },
+    {
+      "id": "ref.annotation_ids.final.val",
+      "name": "annotation ids unique",
+      "status": "pass",
+      "detail": "15222 annotations"
+    },
+    {
+      "id": "ref.missing_image.final.val",
+      "name": "every annotation resolves to an image",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.category_range.final.val",
+      "name": "category_id within 0-25",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.image_size.final.val",
+      "name": "positive image dimensions",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.image_ids.final.test",
+      "name": "image ids unique",
+      "status": "pass",
+      "detail": "1096 images"
+    },
+    {
+      "id": "ref.annotation_ids.final.test",
+      "name": "annotation ids unique",
+      "status": "pass",
+      "detail": "7737 annotations"
+    },
+    {
+      "id": "ref.missing_image.final.test",
+      "name": "every annotation resolves to an image",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.category_range.final.test",
+      "name": "category_id within 0-25",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "ref.image_size.final.test",
+      "name": "positive image dimensions",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.shape.g3.train",
+      "name": "bbox is [x, y, w, h]",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.positive.g3.train",
+      "name": "w and h positive",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.bounds.g3.train",
+      "name": "bbox inside image bounds",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.shape.g3.val",
+      "name": "bbox is [x, y, w, h]",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.positive.g3.val",
+      "name": "w and h positive",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.bounds.g3.val",
+      "name": "bbox inside image bounds",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.shape.g3.test",
+      "name": "bbox is [x, y, w, h]",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.positive.g3.test",
+      "name": "w and h positive",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.bounds.g3.test",
+      "name": "bbox inside image bounds",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.shape.final.train",
+      "name": "bbox is [x, y, w, h]",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.positive.final.train",
+      "name": "w and h positive",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.bounds.final.train",
+      "name": "bbox inside image bounds",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.shape.final.val",
+      "name": "bbox is [x, y, w, h]",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.positive.final.val",
+      "name": "w and h positive",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.bounds.final.val",
+      "name": "bbox inside image bounds",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.shape.final.test",
+      "name": "bbox is [x, y, w, h]",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.positive.final.test",
+      "name": "w and h positive",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "geom.bounds.final.test",
+      "name": "bbox inside image bounds",
+      "status": "pass",
+      "detail": "ok"
+    },
+    {
+      "id": "dup.g3.train",
+      "name": "no exact duplicate boxes",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "id": "dup.g3.val",
+      "name": "no exact duplicate boxes",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "id": "dup.g3.test",
+      "name": "no exact duplicate boxes",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "id": "dup.final.train",
+      "name": "no exact duplicate boxes",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "id": "dup.final.val",
+      "name": "no exact duplicate boxes",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "id": "dup.final.test",
+      "name": "no exact duplicate boxes",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "id": "split.match.g3.train",
+      "name": "split list matches annotation file",
+      "status": "pass",
+      "detail": "8327 images"
+    },
+    {
+      "id": "split.match.g3.val",
+      "name": "split list matches annotation file",
+      "status": "pass",
+      "detail": "2462 images"
+    },
+    {
+      "id": "split.match.g3.test",
+      "name": "split list matches annotation file",
+      "status": "pass",
+      "detail": "994 images"
+    },
+    {
+      "id": "split.match.final.train",
+      "name": "split list matches annotation file",
+      "status": "pass",
+      "detail": "8318 images"
+    },
+    {
+      "id": "split.match.final.val",
+      "name": "split list matches annotation file",
+      "status": "pass",
+      "detail": "2369 images"
+    },
+    {
+      "id": "split.match.final.test",
+      "name": "split list matches annotation file",
+      "status": "pass",
+      "detail": "1096 images"
+    }
+  ]
+}

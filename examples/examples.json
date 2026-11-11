@@ -1,0 +1,201 @@
+{
+  "dataset": "VBDS v1.0",
+  "note": "Illustrative samples only; see README.md.",
+  "images": [
+    {
+      "file": "images/S02_wind_turbine_dior_06704.jpg",
+      "source_unit": "S02",
+      "source_name": "DIOR",
+      "split_g3": "train",
+      "original_file_name": "wind_turbine_dior_06704.jpg",
+      "width": 800,
+      "height": 800,
+      "md5": "8f1e8d32da252f469c566a68372c3406",
+      "annotations": [
+        {
+          "category_id": 4,
+          "bbox": [
+            66.0,
+            94.0,
+            34.0,
+            18.0
+          ]
+        },
+        {
+          "category_id": 4,
+          "bbox": [
+            320.0,
+            281.0,
+            21.0,
+            17.0
+          ]
+        },
+        {
+          "category_id": 4,
+          "bbox": [
+            701.0,
+            283.0,
+            29.0,
+            22.0
+          ]
+        },
+        {
+          "category_id": 4,
+          "bbox": [
+            421.0,
+            411.0,
+            21.0,
+            20.0
+          ]
+        },
+        {
+          "category_id": 4,
+          "bbox": [
+            513.0,
+            569.0,
+            22.0,
+            20.0
+          ]
+        },
+        {
+          "category_id": 4,
+          "bbox": [
+            259.0,
+            724.0,
+            33.0,
+            20.0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "images/S03_helipad_helipad_20_2_rgb_2.jpg",
+      "source_unit": "S03",
+      "source_name": "fMoW",
+      "split_g3": "val",
+      "original_file_name": "helipad_helipad_20_2_rgb_2.jpg",
+      "width": 559,
+      "height": 449,
+      "md5": "1488f66a41caa63cd1024734d06aa259",
+      "annotations": [
+        {
+          "category_id": 18,
+          "bbox": [
+            278.49,
+            56.68,
+            27.33,
+            21.26
+          ]
+        }
+      ]
+    },
+    {
+      "file": "images/S04_runway_runway_248.jpg",
+      "source_unit": "S04",
+      "source_name": "NWPU-RESISC45",
+      "split_g3": "train",
+      "original_file_name": "runway_runway_248.jpg",
+      "width": 256,
+      "height": 256,
+      "md5": "6e23981e167b9efa4a9297212ec9a478",
+      "annotations": [
+        {
+          "category_id": 20,
+          "bbox": [
+            0.0,
+            40.4,
+            256.0,
+            123.23
+          ]
+        }
+      ]
+    },
+    {
+      "file": "images/S05_person_9999981_00000_d_0000052.jpg",
+      "source_unit": "S05",
+      "source_name": "VisDrone",
+      "split_g3": "train",
+      "original_file_name": "person_9999981_00000_d_0000052.jpg",
+      "width": 1400,
+      "height": 1050,
+      "md5": "eab80fb37f4f9815c145faeed0c1a212",
+      "annotations": [
+        {
+          "category_id": 15,
+          "bbox": [
+            652.0,
+            673.0,
+            8.0,
+            24.0
+          ]
+        },
+        {
+          "category_id": 15,
+          "bbox": [
+            655.0,
+            650.0,
+            8.0,
+            22.0
+          ]
+        },
+        {
+          "category_id": 15,
+          "bbox": [
+            659.0,
+            418.0,
+            5.0,
+            23.0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "images/S08_tower_66_00136.jpg",
+      "source_unit": "S08",
+      "source_name": "TTPLA-yolo",
+      "split_g3": "train",
+      "original_file_name": "tower_66_00136.jpg",
+      "width": 3840,
+      "height": 2160,
+      "md5": "46296a2ee1700725eba8713dc95c4424",
+      "annotations": [
+        {
+          "category_id": 13,
+          "bbox": [
+            1493.0,
+            141.82,
+            1027.11,
+            2018.18
+          ]
+        },
+        {
+          "category_id": 13,
+          "bbox": [
+            2551.17,
+            1333.33,
+            462.79,
+            818.99
+          ]
+        },
+        {
+          "category_id": 13,
+          "bbox": [
+            3490.7,
+            1879.07,
+            318.6,
+            279.07
+          ]
+        },
+        {
+          "category_id": 13,
+          "bbox": [
+            3175.93,
+            1948.15,
+            156.48,
+            208.33
+          ]
+        }
+      ]
+    }
+  ]
+}

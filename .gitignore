@@ -1,0 +1,26 @@
+# Image data is distributed outside git (see README §6)
+data/
+/images/
+VBDS/images/
+!examples/images/
+*.zip
+*.tar
+*.tar.gz
+
+# Prediction dumps and local evaluation outputs
+predictions/
+results/local/
+reports/local/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

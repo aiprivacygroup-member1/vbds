@@ -1,0 +1,188 @@
+{
+  "version": "1.0",
+  "n_categories": 26,
+  "categories": [
+    {
+      "id": 0,
+      "name": "no_uav_sign",
+      "domain": "airspace_control",
+      "full_g3_boxes": 53,
+      "public_g3_boxes": 0
+    },
+    {
+      "id": 1,
+      "name": "airplane",
+      "domain": "airspace_control",
+      "full_g3_boxes": 17418,
+      "public_g3_boxes": 10076
+    },
+    {
+      "id": 2,
+      "name": "bridge",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 5204,
+      "public_g3_boxes": 3132
+    },
+    {
+      "id": 3,
+      "name": "dam",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 1050,
+      "public_g3_boxes": 1050
+    },
+    {
+      "id": 4,
+      "name": "wind_turbine",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 5375,
+      "public_g3_boxes": 5363
+    },
+    {
+      "id": 5,
+      "name": "harbor",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 10334,
+      "public_g3_boxes": 5406
+    },
+    {
+      "id": 6,
+      "name": "ship",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 31153,
+      "public_g3_boxes": 23276
+    },
+    {
+      "id": 7,
+      "name": "storage_tank",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 15778,
+      "public_g3_boxes": 12089
+    },
+    {
+      "id": 8,
+      "name": "vehicle",
+      "domain": "ground_activity_public_safety",
+      "full_g3_boxes": 19745,
+      "public_g3_boxes": 9376
+    },
+    {
+      "id": 9,
+      "name": "container_area",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 178,
+      "public_g3_boxes": 2
+    },
+    {
+      "id": 10,
+      "name": "crane",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 303,
+      "public_g3_boxes": 2
+    },
+    {
+      "id": 11,
+      "name": "surface_mine",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 100,
+      "public_g3_boxes": 0
+    },
+    {
+      "id": 12,
+      "name": "solar_farm",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 311,
+      "public_g3_boxes": 265
+    },
+    {
+      "id": 13,
+      "name": "tower",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 397,
+      "public_g3_boxes": 397
+    },
+    {
+      "id": 14,
+      "name": "face",
+      "domain": "identity_privacy",
+      "full_g3_boxes": 8462,
+      "public_g3_boxes": 0
+    },
+    {
+      "id": 15,
+      "name": "person",
+      "domain": "ground_activity_public_safety",
+      "full_g3_boxes": 3722,
+      "public_g3_boxes": 3701
+    },
+    {
+      "id": 16,
+      "name": "plate",
+      "domain": "identity_privacy",
+      "full_g3_boxes": 266,
+      "public_g3_boxes": 0
+    },
+    {
+      "id": 17,
+      "name": "cooling_tower",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 1599,
+      "public_g3_boxes": 1599
+    },
+    {
+      "id": 18,
+      "name": "helipad",
+      "domain": "airspace_control",
+      "full_g3_boxes": 104,
+      "public_g3_boxes": 104
+    },
+    {
+      "id": 19,
+      "name": "helicopter",
+      "domain": "airspace_control",
+      "full_g3_boxes": 652,
+      "public_g3_boxes": 17
+    },
+    {
+      "id": 20,
+      "name": "runway",
+      "domain": "airspace_control",
+      "full_g3_boxes": 584,
+      "public_g3_boxes": 583
+    },
+    {
+      "id": 21,
+      "name": "gas_station_canopy",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 113,
+      "public_g3_boxes": 0
+    },
+    {
+      "id": 22,
+      "name": "electric_substation",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 164,
+      "public_g3_boxes": 164
+    },
+    {
+      "id": 23,
+      "name": "railway",
+      "domain": "critical_infrastructure",
+      "full_g3_boxes": 700,
+      "public_g3_boxes": 700
+    },
+    {
+      "id": 24,
+      "name": "surveillance",
+      "domain": "ground_activity_public_safety",
+      "full_g3_boxes": 189,
+      "public_g3_boxes": 0
+    },
+    {
+      "id": 25,
+      "name": "crowd",
+      "domain": "ground_activity_public_safety",
+      "full_g3_boxes": 152,
+      "public_g3_boxes": 0
+    }
+  ]
+}

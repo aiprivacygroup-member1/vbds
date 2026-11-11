@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "sources": {
+    "S01": {
+      "source_name": "DOTA",
+      "inventory_name": "DOTA v1.5",
+      "site": "https://captain-whu.github.io/DOTA/dataset.html",
+      "paper": "Ding et al., TPAMI 2021, doi:10.1109/TPAMI.2021.3117983",
+      "declared_license": "Academic use only; commercial use prohibited（未授予再分发）",
+      "license_url": "https://captain-whu.github.io/DOTA/dataset.html",
+      "images": 1115,
+      "bytes": 9654617279,
+      "splits": {
+        "test": 92,
+        "train": 780,
+        "val": 243
+      },
+      "public_release": false,
+      "reason": "Redistribution not granted, not established, or image rights unclear; see SOURCE_LICENSES.md.",
+      "verification": "MD5 and byte size of each file as used in the experiments"
+    },
+    "S06": {
+      "source_name": "BirdsEye",
+      "inventory_name": "BirdsEye-RU",
+      "site": "https://www.kaggle.com/datasets/mdahanafarifkhan/birdseye-ru",
+      "paper": "Khan et al., arXiv:2601.12533",
+      "declared_license": "CC BY-SA 4.0（Kaggle 元数据）",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "images": 2934,
+      "bytes": 262177439,
+      "splits": {
+        "test": 295,
+        "train": 2053,
+        "val": 586
+      },
+      "public_release": false,
+      "reason": "Redistribution not granted, not established, or image rights unclear; see SOURCE_LICENSES.md.",
+      "verification": "MD5 and byte size of each file as used in the experiments"
+    },
+    "S07": {
+      "source_name": "ERA",
+      "inventory_name": "ERA (Event Recognition in Aerial videos)",
+      "site": "https://lcmou.github.io/ERA_Dataset/",
+      "paper": "Mou et al., IEEE GRSM 2020, doi:10.1109/MGRS.2020.3005751",
+      "declared_license": "未声明",
+      "license_url": "https://lcmou.github.io/ERA_Dataset/",
+      "images": 128,
+      "bytes": 81183803,
+      "splits": {
+        "test": 13,
+        "train": 89,
+        "val": 26
+      },
+      "public_release": false,
+      "reason": "Redistribution not granted, not established, or image rights unclear; see SOURCE_LICENSES.md.",
+      "verification": "MD5 and byte size of each file as used in the experiments"
+    },
+    "S10": {
+      "source_name": "TADBench-plate",
+      "inventory_name": "TADBench（TAD-benchmark；plate 交通监控视频抽帧）",
+      "site": "https://github.com/UnicomAI/UnicomBenchmark/tree/main/TADBench",
+      "paper": "TADBench, IEEE Access 2025, DOI 10.1109/ACCESS.2024.3522384",
+      "declared_license": "未提供许可证（仓库/数据目录均无 LICENSE）",
+      "license_url": "https://github.com/UnicomAI/UnicomBenchmark/tree/main/TADBench",
+      "images": 170,
+      "bytes": 474201744,
+      "splits": {
+        "test": 17,
+        "train": 114,
+        "val": 39
+      },
+      "public_release": false,
+      "reason": "Redistribution not granted, not established, or image rights unclear; see SOURCE_LICENSES.md.",
+      "verification": "MD5 and byte size of each file as used in the experiments"
+    },
+    "S11": {
+      "source_name": "surveilling",
+      "inventory_name": "Web：surveilling（监控图像）",
+      "site": "无 url.txt",
+      "paper": "无",
+      "declared_license": "无法确认",
+      "license_url": "",
+      "images": 135,
+      "bytes": 41503097,
+      "splits": {
+        "test": 13,
+        "train": 95,
+        "val": 27
+      },
+      "public_release": false,
+      "reason": "Redistribution not granted, not established, or image rights unclear; see SOURCE_LICENSES.md.",
+      "verification": "MD5 and byte size of each file as used in the experiments"
+    },
+    "S12": {
+      "source_name": "WEB-crane/container",
+      "inventory_name": "Web：container_area + crane（集装箱/集装箱塔吊）",
+      "site": "本地 集装箱url.txt / 塔吊url.txt",
+      "paper": "无",
+      "declared_license": "混合：Pexels/Unsplash/Pixabay + Shutterstock/Alamy/Dreamstime 等",
+      "license_url": "https://www.pexels.com/license/ ; https://unsplash.com/license ; https://pixabay.com/service/license-summary/",
+      "images": 103,
+      "bytes": 1666305736,
+      "splits": {
+        "test": 11,
+        "train": 74,
+        "val": 18
+      },
+      "public_release": false,
+      "reason": "Redistribution not granted, not established, or image rights unclear; see SOURCE_LICENSES.md.",
+      "verification": "MD5 and byte size of each file as used in the experiments"
+    },
+    "S13": {
+      "source_name": "WEB-mine",
+      "inventory_name": "Web：surface_mine（矿场图片）",
+      "site": "本地 矿场图片/url.txt",
+      "paper": "无",
+      "declared_license": "混合：Pexels/Pixabay/Unsplash/Wikimedia + Dreamstime/VCG/Tuchong 等",
+      "license_url": "https://www.pexels.com/license/ ; https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "images": 100,
+      "bytes": 1783081670,
+      "splits": {
+        "test": 10,
+        "train": 70,
+        "val": 20
+      },
+      "public_release": false,
+      "reason": "Redistribution not granted, not established, or image rights unclear; see SOURCE_LICENSES.md.",
+      "verification": "MD5 and byte size of each file as used in the experiments"
+    },
+    "S14": {
+      "source_name": "WEB-gasstation",
+      "inventory_name": "Web：gas_station_canopy（加油站顶棚）",
+      "site": "本地 加油站顶棚/url.txt",
+      "paper": "无",
+      "declared_license": "混合且多为不明：Bing 缩略图、新闻站、699pic 等",
+      "license_url": "",
+      "images": 99,
+      "bytes": 43607273,
+      "splits": {
+        "test": 10,
+        "train": 69,
+        "val": 20
+      },
+      "public_release": false,
+      "reason": "Redistribution not granted, not established, or image rights unclear; see SOURCE_LICENSES.md.",
+      "verification": "MD5 and byte size of each file as used in the experiments"
+    },
+    "S15": {
+      "source_name": "no_uav_sign",
+      "inventory_name": "Web：no_uav_sign（禁飞标识，透视增强）",
+      "site": "本地 no drone/url.txt",
+      "paper": "无",
+      "declared_license": "未取得：Alamy/Dreamstime 等图库素材 + Bing 缩略图",
+      "license_url": "https://www.alamy.com/help/license-agreements.aspx ; https://www.dreamstime.com/terms",
+      "images": 53,
+      "bytes": 26168819,
+      "splits": {
+        "test": 5,
+        "train": 37,
+        "val": 11
+      },
+      "public_release": false,
+      "reason": "Redistribution not granted, not established, or image rights unclear; see SOURCE_LICENSES.md.",
+      "verification": "MD5 and byte size of each file as used in the experiments"
+    },
+    "S16": {
+      "source_name": "WEB-solarfarm",
+      "inventory_name": "Web：solar_farm（光伏场）",
+      "site": "本地 solarfarm/url.txt",
+      "paper": "无",
+      "declared_license": "混合且多为商业图库：Dreamstime/Freepik/Alamy/Bigstock/Science Photo 等",
+      "license_url": "https://www.dreamstime.com/terms ; https://www.alamy.com/help/license-agreements.aspx",
+      "images": 40,
+      "bytes": 3573852,
+      "splits": {
+        "test": 8,
+        "val": 32
+      },
+      "public_release": false,
+      "reason": "Redistribution not granted, not established, or image rights unclear; see SOURCE_LICENSES.md.",
+      "verification": "MD5 and byte size of each file as used in the experiments"
+    }
+  },
+  "total_images": 4877,
+  "total_bytes": 14036420712
+}
