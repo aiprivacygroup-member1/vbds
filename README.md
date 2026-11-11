@@ -193,8 +193,9 @@ the public release (see `DATA_ACCESS.md`).
 }
 ```
 
-The paper citation will be added once the paper is published. `CITATION.cff` carries the same
-record in machine-readable form.
+The paper citation will be added once the paper is published. The code and annotations in this
+repository are archived at [10.5281/zenodo.24134471](https://doi.org/10.5281/zenodo.24134471)
+(v1.0); `CITATION.cff` carries the dataset record in machine-readable form.
 
 ## 12. Licence
 

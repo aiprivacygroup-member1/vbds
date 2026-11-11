@@ -14,6 +14,10 @@ license-url: "https://creativecommons.org/licenses/by-nc/4.0/"
 repository-code: "https://github.com/aiprivacygroup-member1/vbds"
 url: "https://github.com/aiprivacygroup-member1/vbds"
 doi: "10.5281/zenodo.24126537"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24134471"
+    description: "Archived release of this repository (v1.0)"
 keywords:
   - aerial imagery
   - object detection
